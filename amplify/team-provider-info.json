@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kezbackend-dev-69c53-authRole",
+      "UnauthRoleArn": "arn:aws:iam::515966511619:role/amplify-kezbackend-dev-69c53-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::515966511619:role/amplify-kezbackend-dev-69c53-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-kezbackend-dev-69c53-deployment",
+      "UnauthRoleName": "amplify-kezbackend-dev-69c53-unauthRole",
+      "StackName": "amplify-kezbackend-dev-69c53",
+      "StackId": "arn:aws:cloudformation:us-east-1:515966511619:stack/amplify-kezbackend-dev-69c53/856c8900-8d78-11f0-8865-12f0d91b6ef1",
+      "AmplifyAppId": "d23k8ogzjrzv0q"
+    },
+    "categories": {
+      "function": {
+        "authLambda": {
+          "deploymentBucketName": "amplify-kezbackend-dev-69c53-deployment",
+          "s3Key": "amplify-builds/authLambda-2b6c706c6f444b764849-build.zip",
+          "key": "VALUE",
+          "key2": "VALUE"
+        }
+      },
+      "auth": {
+        "kezbackendfe0980dd": {}
+      },
+      "api": {
+        "auth": {}
+      }
+    }
+  }
+}

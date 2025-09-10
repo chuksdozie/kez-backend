@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "paths": {
+    "/signup": {
+      "name": "/signup",
+      "lambdaFunction": "authLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/confirm-user": {
+      "name": "/confirm-user",
+      "lambdaFunction": "authLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/login": {
+      "name": "/login",
+      "lambdaFunction": "authLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/resend": {
+      "name": "/resend",
+      "lambdaFunction": "authLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/health": {
+      "name": "/health",
+      "lambdaFunction": "authLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/": {
+      "name": "/",
+      "lambdaFunction": "authLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

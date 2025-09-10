@@ -1,0 +1,89 @@
+{
+  "api": {
+    "auth": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "authLambda"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "kezbackendfe0980dd": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL",
+          "FAMILY_NAME",
+          "GIVEN_NAME"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "authLambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_authLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "authLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_authLambda_key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "authLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_authLambda_key2": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "authLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_authLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "authLambda"
+        }
+      ]
+    }
+  }
+}

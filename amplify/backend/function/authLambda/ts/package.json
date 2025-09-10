@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.883.0",
+    "aws-lambda": "^1.0.7",
+    "aws-serverless-express": "^3.4.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "scripts": {
+    "build": "npx tsc --outDir ../src",
+    "watch": "npx tsc --watch --outDir ../src"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.152",
+    "@types/aws-serverless-express": "^3.3.10",
+    "@types/body-parser": "^1.19.6",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
