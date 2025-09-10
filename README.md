@@ -23,7 +23,7 @@
 * Secure-by-default patterns: no secrets in code, minimal logging of PII, input validation suggestions.
 * Analysis of performance, security, and cost improvements.
 
-   [Here is the Documentation]("https://documenter.getpostman.com/view/15764037/2sB3HnLLFK")
+   You can view the full API documentation [here](https://documenter.getpostman.com/view/15764037/2sB3HnLLFK).
 
 ---
 
