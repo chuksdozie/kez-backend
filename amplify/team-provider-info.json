@@ -15,7 +15,7 @@
       "function": {
         "authLambda": {
           "deploymentBucketName": "amplify-kezbackend-dev-69c53-deployment",
-          "s3Key": "amplify-builds/authLambda-2b6c706c6f444b764849-build.zip",
+          "s3Key": "amplify-builds/authLambda-6c446b62634679425a69-build.zip",
           "key": "VALUE",
           "key2": "VALUE"
         }
